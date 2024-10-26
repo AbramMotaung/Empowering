@@ -3,9 +3,9 @@ import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native
 
 const SixWeekCoursesScreen = ({ navigation }) => {
   const courses = [
-    { id: 1, name: 'Child Minding', fee: 'R750' },
-    { id: 2, name: 'Cooking', fee: 'R750' },
-    { id: 3, name: 'Garden Maintenance', fee: 'R750' },
+    { id: 5, name: 'Child Minding', fee: 'R750' }, 
+    { id: 6, name: 'Cooking', fee: 'R750' },
+    { id: 7, name: 'Garden Maintenance', fee: 'R750' },
   ];
 
   const handleCoursePress = (courseId) => {

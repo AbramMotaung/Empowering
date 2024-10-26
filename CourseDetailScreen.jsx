@@ -4,7 +4,6 @@ import { View, Text, StyleSheet } from 'react-native';
 const CourseDetailScreen = ({ route }) => {
   const { courseId } = route.params;
 
-  // Define the courses
   const courses = {
     1: {
       name: 'First Aid',
@@ -51,6 +50,39 @@ const CourseDetailScreen = ({ route }) => {
         'Basic labour law (know your rights)',
         'Basic reading and writing literacy',
         'Basic numeric literacy',
+      ],
+    },
+    // Six-week courses
+    5: {
+      name: 'Child Minding',
+      fee: 'R750',
+      description: 'To provide basic child and baby care',
+      content: [
+        'birth to six-month old baby needs',
+        'seven-month to one year old needs',
+        'Toddler needs',
+        'Educational toys',
+      ],
+    },
+    6: {
+      name: 'Cooking',
+      fee: 'R750',
+      description: 'To prepare and cook nutritious family meals',
+      content: [
+        'Nutritional requirements for a healthy body',
+        'Types of protein, carbohydrates and vegetables',
+        'Planning meals',
+        'Preparation and cooking of meals',
+      ],
+    },
+    7: {
+      name: 'Garden Maintenance',
+      fee: 'R750',
+      description: 'To provide basic knowledge of watering, pruning and planting in a domestic garden',
+      content: [
+        'Water restrictions and the watering requirements of indigenous and exotic plants',
+        'Pruning and propagation of plants',
+        'Planting techniques for different plant types',
       ],
     },
   };
